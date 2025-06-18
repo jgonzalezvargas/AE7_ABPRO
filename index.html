@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autofix</title>
+</head>
+<body>
+    <header>
+    <h1>Autofix -  Reparación de vehículos a domicilio</h1>
+    </header>
+
+    <section>
+        <h2>Servicios y precios</h2>
+        <div class="servicios">
+            <div class="servicio">
+                <h3>Cambio de Aceite</h3>
+                <p>Precio: $500</p>
+            </div>
+
+            <div class="servicio">
+                <h3>Revisión de Frenos</h3>
+                <p>Precio: $700</p>
+            </div>
+
+            <div class="servicio">
+                <h3>Diagnostico Eléctrico</h3>
+                <p>Precio: $600</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Solicitar Reparación</h2>
+        <form action="POST">
+            <div>
+                <label for="cliente">Nombre del cliente</label>
+                <input type="text" id="cliente" name="cliente">
+            </div>
+            <div>
+                <label for="tipo">Tipo de Reparación</label>
+                <select name="tipo" id="tipo">
+                    <option value="">Selecciona un servicio</option>
+                    <option value="aceite">Cambio de aceite</option>
+                    <option value="frenos">Revisión de frenos</option>
+                    <option value="diagnostico">Diagnóstico eléctrico</option>
+                </select>
+            </div>
+        </form>
+    </section>
+
+
+    
+</body>
+</html>
