@@ -1,6 +1,6 @@
 @import url("./servicios.css");
-@import url("./reparacion.css");
 @import url("./stylesAgendarCita.css");
+@import url("./reparacion.css");
 
 
 
@@ -11,9 +11,14 @@
   margin: 0;
   padding: 0;
 }
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 
 /* Tipografía y colores */
 body {
+  overflow-x: hidden;
   font-family: Arial, sans-serif;
   line-height: 1.6;
   color: #333;

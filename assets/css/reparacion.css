@@ -70,3 +70,9 @@ hr {
     font-size: 1.5rem;
   }
 }
+.input-full,
+.linea-full {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box; /* incluye padding/border sin pasarse */
+}
