@@ -1,0 +1,50 @@
+@import url("./servicios.css");
+@import url("./stylesAgendarCita.css");
+@import url("./reparacion.css");
+
+
+
+
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
+/* Tipografía y colores */
+body {
+  overflow-x: hidden;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #fafafa;
+}
+
+/* Contenedor principal */
+.container {
+  width: 90%;
+  max-width: 960px;
+  margin: 2rem auto;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 2rem 0;
+}
+.hero h1 {
+  font-size: 2rem;
+}
+
+/* Secciones */
+h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #222;
+}
+

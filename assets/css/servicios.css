@@ -1,0 +1,27 @@
+/* Seccion servicios*/
+
+.servicios {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+/*Cada tarjeta de servicios*/
+.servicio {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s;
+}
+.servicio:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.servicio img {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
